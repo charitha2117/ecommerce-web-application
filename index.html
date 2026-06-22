@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>My Online Store</h1>
+
+<div class="container">
+    <div class="product">
+        <h2>Smartphone</h2>
+        <p>Price: ₹15,000</p>
+        <button onclick="addToCart('Smartphone')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h2>Laptop</h2>
+        <p>Price: ₹45,000</p>
+        <button onclick="addToCart('Laptop')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h2>Headphones</h2>
+        <p>Price: ₹2,000</p>
+        <button onclick="addToCart('Headphones')">Add to Cart</button>
+    </div>
+</div>
+
+<h2>Cart Items</h2>
+<ul id="cart"></ul>
+
+<button onclick="checkout()">Checkout</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
